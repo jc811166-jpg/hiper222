@@ -1,0 +1,339 @@
+.area-titulo{
+	width:776px;
+	height:64px;
+}
+.img0{
+	position:absolute;
+	left:1.7%;
+	top:1.2%;
+	z-index:-49;
+}
+.img1{
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:-50;
+}
+.num-hc{
+	font-family:verdana;
+	font-size:9px;
+	color:bbb;
+	z-index:-11;
+}
+#f{
+	position:relative;
+	margin-top:0;
+	top:-15%;
+	left:56%;
+	z-index:2;
+}
+.busca{
+	position:absolute;
+	left:37.3%;
+	top:5%;
+	z-index:2;
+}
+.menu{
+	width:776px;
+	position:absolute;
+	left:0%;
+	top:7.5%;
+}
+.menu > ul img.menu_down_right{
+	position:relative;
+	left:0.1%;	
+	top:-15px;
+	width:619px;
+	height:15px;
+}
+.menu > ul img.menu_down{
+	position:relative;
+	left:-3.7%;
+}
+.menu > ul{
+	list-style:none;	
+	float:right;
+	position:absolute;
+	left:14.2%;
+	top:0%;
+}
+
+.menu ul > li{
+	float:left;
+	background:url(../images/menu_gradient.png);
+	z-index:999;
+	font-family:verdana;
+	font-size:11px;
+	padding: 6px 33px 6px 32.4px;
+}
+.menu ul > li a{
+	color:#FFF;
+	text-decoration:none;
+}
+.conteudo{
+	width:776px;
+}
+.conteudo > .esquerda .e-titulo{
+	position:absolute;
+	top:17%;
+	left:0.3%;
+	border:1px solid #D0D0D0;
+	text-align:left;
+	padding:2px 60px 2px 5px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	font-family:verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	background-color:e7e7e7;
+	background-image:url(../images/bg_bar_title.png);
+}
+.conteudo > .esquerda .e-corpo{
+	background-color:#FFF;
+	position:absolute;
+	top:20.5%;
+	left:0.3%;
+	padding:8px;
+	border:1px solid #D0D0D0;
+	font-family:verdana;
+	font-size:11px;
+	color:#666;
+}
+.conteudo > .esquerda .e-corpo2{
+	background-color:#FFF;
+	position:absolute;
+	top:30%;
+	left:0.3%;
+	padding:12px 12px 29px 12px;
+	border:1px solid #D0D0D0;
+	font-family:verdana;
+	font-size:11px;
+	color:#666;
+}
+.conteudo > .esquerda .e-corpo3{
+	background-color:#FFF;
+	position:absolute;
+	top:38%;
+	left:0.3%;
+	padding:2px;
+	border:1px solid #D0D0D0;
+}
+.conteudo > .esquerda .e-corpo4{
+	background-color:#FFF;
+	position:absolute;
+	top:44%;
+	left:0.3%;
+	padding:2px 38px 2px 2px;
+	border:1px solid #D0D0D0;
+}
+.conteudo > .esquerda .e-corpo5{
+	background-color:#FFF;
+	position:absolute;
+	top:50.3%;
+	left:0.3%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	padding:2px 29px 2px 2px;
+	width:115px;
+	border:1px solid #D0D0D0;
+}
+
+.txt-bra, .d-b-corpo ul{
+	font-family:verdana;
+	font-size:11px;
+	color:#666;
+}
+
+.e-corpo ul,.e-corpo2 ul, .d-b-corpo ul, .d-b-corpo2 ul, .d-b-corpo3 ul{
+	list-style: square;
+	font-weight:bold; 
+}
+.d-baixo{
+	position:absolute;
+	top:39%;
+	left:11.3%;
+}
+.d-baixoa{
+	position:absolute;
+	top:39%;
+	left:26.5%;
+}
+.d-baixob{
+	position:absolute;
+	top:39%;
+	left:41.75%;
+}
+.d-baixo1 .d-b-titulo,.d-baixo2 .d-b-titulo2,.d-baixo3 .d-b-titulo3{
+	border:1px solid #D0D0D0;
+	text-align:left;
+	padding:2px 34px 2px 4px;
+	z-index:5;
+	width:160px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	font-family:verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	background-color:e7e7e7;
+	background-image:url(../images/bg_bar_title.png);
+}
+.d-baixo1 .d-b-corpo,.d-baixo2 .d-b-corpo2,.d-baixo3 .d-b-corpo3{
+	z-index:4;
+	background-color:#FFF;
+	position:absolute;
+	top:90%;
+	width:193px;
+	left:0%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	padding:2px 3px 2px 2px;
+	border:1px solid #D0D0D0;
+}
+.d-topo{
+	position:absolute;
+	left:11.3%;
+	top:17%;
+}
+.d-topo img{
+	width:615px;
+	height:140px;
+}
+.rodape{
+	position:absolute;
+	left:0%;
+	top:61.5%;
+}
+.rodape ul{
+	float:left;
+	list-style:none;
+	background:url(../images/menu_gradient.png);
+	z-index:999;
+	font-family:verdana;
+	font-size:11px;
+	padding: 6px 33px 6px 32.4px;
+}
+.rodape > ul a{
+	color:#FFF;
+	text-decoration:none;
+}
+.rodape > ul li{
+	float:left;
+	padding:0px 12px 0px 19px;
+}
+.separdor{
+	position:relative;
+	top:3px;
+}
+.modal{
+	background-color:#990000;
+	opacity:1;
+	padding:0px;
+	margin:0px;	
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:200;
+	 
+}
+.janelax{
+	background-color:#FFF;
+	height:490px;
+	width:400px;
+	z-index:999;
+	position:absolute;
+	left:50%;
+	top:50%;
+	border-radius:8px;
+	margin-left:-200px;
+	margin-top:-250px;	 
+}
+.j-corpo{
+	padding:20px;
+}
+.j-corpo table{
+	margin-top:-20px;
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+}
+.j-titulo{
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	color:#555;
+	padding:20px 20px 10px 30px;
+}
+.tx input[type^="te"], .tx input[type^="em"],.tx input[type$="rd"],select[name="diacad"],select[name="mescad"],select[name="anocad"]
+,select[name="dianas"],select[name="mesnas"],select[name="anonas"]{
+	width:220px;
+	height:27px;
+	border:1px solid #88acfb;
+	margin-bottom:1px;
+	padding:5px;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.tx input[name="cvv"]{
+	width:50px;
+	padding:5px;
+}
+.tx input[name="cpf"]{
+	width:130px;
+	padding:5px;
+}
+.tx input[name="numcard"]{
+	width:150px;
+	padding:5px;
+}
+.tx input[name="validade"]{
+	width:80px;
+	padding:5px;
+}
+.tx input[type$="rd"]{
+	width:90px;
+	padding:5px;
+}
+.submitx{
+	width:200px;
+	height:25px;
+	background-color:#007fff;
+	color:#FFF;
+	font-weight:bold;
+	font-family:verdana;
+	border:1px solid rgb(255,180,70);
+	border-left:10px solid rgb(255,180,70);
+	margin-top:10px;
+	margin-left:100px;
+}
+select[name="diacad"],select[name="mescad"],select[name="anocad"],select[name="dianas"],select[name="mesnas"],select[name="anonas"]{
+	width:50px;
+	background:#ffffff;
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-webkit-user-select: none;
+	-moz-appearance: none;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-padding-end: 20px;
+	-moz-padding-start: 2px;
+	-moz-user-select: none;
+	color:#666;
+}
+select[name="anocad"]{width:220px;}
+select[name="mesnas"]{width:102px;}
+select[name="anonas"]{width:60px;}
+.foo {
+	position: relative;
+	left: 145px;
+	top: 180px;
+	display: block;
+}
